@@ -131,8 +131,10 @@
     <ClInclude Include="user.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="fun1.cpp" />
     <ClCompile Include="fun2.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="user.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

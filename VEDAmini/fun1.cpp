@@ -5,8 +5,6 @@ using namespace std;
 #include "To_do.h"
 #include "user.h"
 
-//std::vector<std::string> m_list;
-
 void ToDo::insert(std::string input)
 {
 	m_list.push_back(input);
