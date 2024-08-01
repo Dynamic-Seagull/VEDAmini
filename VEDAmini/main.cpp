@@ -5,9 +5,16 @@
 using namespace std;
 #include "user.h"
 #include "To_do.h"
+namespace sf = std::filesystem;
 
 int main()
 {
+	if (!(sf::exists(sf::path("./userInfo"))))
+	{
+		sf::create_directory(sf::path("./userInfo"));
+		cout << "create directory"<<endl;
+	}	
+	
 	int menuNum = 0;
 	string name;
 	string todo;
