@@ -18,7 +18,7 @@ public:
 	void U_del(int idx);
 	void U_load(string name);
 	void U_save(string name) const;
-	
+	bool U_check(string name);
 };
 
 
