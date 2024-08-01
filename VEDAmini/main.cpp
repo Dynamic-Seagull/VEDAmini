@@ -15,37 +15,36 @@ int main()
 	string fileName = name + ".txt";
 	ifstream loadFile(fileName);
 
+	cout << "---------------" << endl;
+	cout << "1. User : Add " <<endl;
+	cout << "2. User : select " << endl;
+	cout << "3. To-Do : Show List " << endl;
+	cout << "4. To-Do : Add Task " << endl;
+	cout << "5. To-Do : Edit " << endl;
+	cout << "6. To-Do : Delete " << endl;
+	cout << "7. Save " << endl;
+	cout << endl;
+	cout << "9. Quit " << endl;
+	cout << "---------------" << endl;
 	do
 	{
-	
-		cout << "---------------" << endl;
-		cout << "1. 사용자 추가 " <<endl;
-		cout << "2. 사용자 선택 " << endl;
-		cout << "3. 할 일 조회 " << endl;
-		cout << "4. 할 일 추가 " << endl;
-		cout << "5. 할 일 수정 " << endl;
-		cout << "6. 할 일 삭제 " << endl;
-		cout << endl;
-		cout << "9. 저장 후 종료 " << endl;
-		cout << "---------------" << endl;
-	
-		cout << "선택 : ";
+		cout << "Select : ";
 		cin >> menuNum;
 		getchar();
 		switch (menuNum)
 		{
 		case 1:
 			//사용자 추가
-			cout << "사용자 추가 : ";
+			cout << "Input Name (New) : ";
 			getline(cin, name);
-			//사용자가 이미 있으면 break.
+			//사용자가 이미 있으면
 			if (loadFile)
-				std::cout << "이전에 작성 한 기록이 없습니다.\n";
+				std::cout << "User information already exists.\n";
 			user.setName(name);
 
 			while (true)
 			{
-				cout << "할 일 입력 (종료코드 : end) : ";
+				cout << "Input Task (End Code : end) : ";
 				getline(cin, todo);
 				if (todo == "end") break;
 				user.U_insert(todo);
@@ -56,7 +55,7 @@ int main()
 
 		case 2:
 			//사용자 선택
-			cout << "사용자 선택 : ";
+			cout << "Input Name (Select) : ";
 			getline(cin, name);
 			user.U_load(name);
 			break;
@@ -71,7 +70,7 @@ int main()
 			//할 일 추가
 			while (true)
 			{
-				cout << "할 일 입력 (종료코드 : end) : ";
+				cout << "Input Task (End Code : end) : ";
 				getline(cin, todo);
 				if (todo == "end") break;
 				user.U_insert(todo);
@@ -81,34 +80,37 @@ int main()
 		case 5:
 			//할 일 수정
 			int editN;
-			cout << "수정할 할 일의 번호를 선택해주세요" << endl;
+			cout << "Please select the number" << endl;
 			cout << "To-Do List" << endl;
 			user.U_allPrint();
-			cout << "번호 : ";
+			cout << "Input Number : ";
 			cin >> editN;
-			cout << "내용을 작성해주세요" << endl;
-			cout << "입력 : ";
+			cout << "Input Task :";
 			cin >> todo;
 			user.U_modify(editN, todo);
 			break;
 
 		case 6:
 			//할 일 삭제
-			cout << "삭제할 번호를 선택해주세요" << endl;
+			cout << "Please select the number you want to delete" << endl;
 			user.U_allPrint();
-			cout << "번호 : ";
+			cout << "Input Number : ";
 			cin >> editN;
 			user.U_del(editN);
 			cout << "To-Do List" << endl;
 			user.U_allPrint();
 			break;
 
-		case 9:
+		case 7:
 			user.U_save(name);
 			break;
 
+		case 9:
+			cout << "Quit."<<endl;
+			break;
+
 		defult:
-			cout << "다시 선택해주세요." << endl;
+			cout << "Please select again." << endl;
 			break;
 		}
 	} while (menuNum != 9);
