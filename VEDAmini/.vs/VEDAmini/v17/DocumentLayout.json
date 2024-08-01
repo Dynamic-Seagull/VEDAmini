@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\",
+  "WorkspaceRootPath": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|solutionrelative:fun2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|solutionrelative:fun1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\To_do.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\To_do.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|solutionrelative:To_do.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|solutionrelative:user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\user.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\fun2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|solutionrelative:fun2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\user.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|solutionrelative:user.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\fun1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC957195-9BA4-4148-A0B9-9CBF61D8B5B7}|VEDAmini.vcxproj|solutionrelative:fun1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\main.cpp",
+              "ToolTip": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAEcAAAASAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-01T01:06:18.575Z",
               "IsPinned": true,
@@ -60,66 +60,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "To_do.h",
-              "DocumentMoniker": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\To_do.h",
-              "RelativeDocumentMoniker": "To_do.h",
-              "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\To_do.h",
-              "RelativeToolTip": "To_do.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-01T05:58:24.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "user.h",
-              "DocumentMoniker": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\user.h",
-              "RelativeDocumentMoniker": "user.h",
-              "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\user.h",
-              "RelativeToolTip": "user.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-01T05:57:07.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "fun1.cpp",
-              "DocumentMoniker": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun1.cpp",
+              "DocumentMoniker": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\fun1.cpp",
               "RelativeDocumentMoniker": "fun1.cpp",
-              "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun1.cpp",
+              "ToolTip": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\fun1.cpp",
               "RelativeToolTip": "fun1.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-01T01:50:02.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T01:50:02.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "fun2.cpp",
-              "DocumentMoniker": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun2.cpp",
+              "DocumentMoniker": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\fun2.cpp",
               "RelativeDocumentMoniker": "fun2.cpp",
-              "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun2.cpp",
+              "ToolTip": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\fun2.cpp",
               "RelativeToolTip": "fun2.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADsAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-01T01:11:11.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "user.cpp",
-              "DocumentMoniker": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\user.cpp",
+              "DocumentMoniker": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\user.cpp",
               "RelativeDocumentMoniker": "user.cpp",
-              "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\user.cpp",
+              "ToolTip": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\user.cpp",
               "RelativeToolTip": "user.cpp",
-              "ViewState": "AQIAACIAAAAAAAAAAAAcwC4AAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-01T02:02:07.637Z"
+              "WhenOpened": "2024-08-01T02:02:07.637Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "user.h",
+              "DocumentMoniker": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\user.h",
+              "RelativeDocumentMoniker": "user.h",
+              "ToolTip": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\user.h",
+              "RelativeToolTip": "user.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-01T05:57:07.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "To_do.h",
+              "DocumentMoniker": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\To_do.h",
+              "RelativeDocumentMoniker": "To_do.h",
+              "ToolTip": "C:\\Users\\DREAM14\\Desktop\\VEDAmini\\VEDAmini\\To_do.h",
+              "RelativeToolTip": "To_do.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-01T05:58:24.445Z",
+              "EditorCaption": ""
             }
           ]
         }
