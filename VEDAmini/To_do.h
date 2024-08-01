@@ -7,6 +7,7 @@ class ToDo
 {
 private:
 	std::vector<std::string> m_list;
+	std::vector<std::string> c_list;
 public:
 	ToDo();
 	~ToDo();
@@ -18,5 +19,6 @@ public:
 	void save(std::string name) const;
 	bool check(std::string name) const;
 	void listClear();
+	void clear(int dix);
 };
 #endif

@@ -15,6 +15,10 @@ void ToDo::allPrint() const
 	{
 		cout << i+1 << ". " << m_list[i] <<endl;
 	}
+	for (int i = 0; i < c_list.size(); i++)
+	{
+		cout << i + 1 << ". " << c_list[i] << endl;
+	}
 }
 
 void ToDo::listClear()
