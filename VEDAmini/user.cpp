@@ -41,3 +41,8 @@ bool User::U_check(string name)
 {
 	return myList.check(name);
 }
+
+void User::U_clear()
+{
+	myList.listClear();
+}

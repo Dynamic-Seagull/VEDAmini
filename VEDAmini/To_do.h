@@ -17,5 +17,6 @@ public:
 	void load(std::string name);
 	void save(std::string name) const;
 	bool check(std::string name) const;
+	void listClear();
 };
 #endif

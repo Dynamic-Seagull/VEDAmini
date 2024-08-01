@@ -16,3 +16,8 @@ void ToDo::allPrint() const
 		cout << i+1 << ". " << m_list[i] <<endl;
 	}
 }
+
+void ToDo::listClear()
+{
+	m_list.clear();
+}
