@@ -1,6 +1,6 @@
 #include <iostream>
 #include "To_do.h"
-#include "user.h"
+#include <fstream>
 
 ToDo::ToDo()
 {
@@ -13,7 +13,7 @@ ToDo::~ToDo()
 
 void ToDo::modify(int idx, std::string input)
 {
-	if (m_list.size() > idx)
+	if (m_list.size() < idx)
 		std::cout << "Out of range.\n";
 	else
 	{
@@ -40,4 +40,40 @@ void ToDo::del(int idx)
 			}
 		}
 	}
+}
+
+void ToDo::load(std::string name)
+{
+	std::string fileName = name + ".txt";
+
+	std::ifstream loadFile(fileName);
+	if (!loadFile)
+		std::cout << "이전에 작성 한 기록이 없습니다.\n";
+
+	std::string temp;
+	m_list.clear();
+
+	while (std::getline(loadFile, temp))
+	{
+		m_list.push_back(temp);
+	}
+
+	loadFile.close();
+	std::cout << "불러오기가 완료 되었습니다.\n";
+}
+
+void ToDo::save(std::string name) const
+{
+	std::string fileName = name + ".txt";
+	std::ofstream saveFile(fileName);
+	if (!saveFile)
+		std::cout << "파일을 열 수 없습니다.\n";
+
+	for (auto& x : m_list)
+	{
+		saveFile << x << std::endl;
+	}
+
+	saveFile.close();
+	std::cout << "저장이 완료 되었습니다.\n";
 }

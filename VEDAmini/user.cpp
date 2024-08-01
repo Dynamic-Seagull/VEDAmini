@@ -26,3 +26,13 @@ void User::U_del(int idx)
 {
 	myList.del(idx);
 }
+
+void User::U_load(string name)
+{
+	myList.load(name);
+}
+
+void User::U_save(string name) const
+{
+	myList.save(name);
+}

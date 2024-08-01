@@ -16,6 +16,9 @@ public:
 	void U_allPrint() const;
 	void U_modify(int idx, string input);
 	void U_del(int idx);
+	void U_load(string name);
+	void U_save(string name) const;
+	
 };
 
 

@@ -14,5 +14,7 @@ public:
 	void modify(int idx, std::string input);
 	void del(int dix);
 	void allPrint() const;
+	void load(std::string name);
+	void save(std::string name) const;
 };
 #endif
