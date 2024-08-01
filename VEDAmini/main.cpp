@@ -16,7 +16,8 @@ void tbColor(unsigned short textColor, unsigned short backColor) {
 }
 
 int main()
-{
+{	
+	//폴더 없으면 생성 (사용자 정보 저장용)
 	if (!(sf::exists(sf::path("./userInfo"))))
 	{
 		sf::create_directory(sf::path("./userInfo"));
@@ -31,7 +32,7 @@ int main()
 	int menuNum = 0;
 	string name;
 	string todo;
-	User user;
+	unique_ptr<User> pUser;
 	string fileName;
 	ifstream loadFile(fileName);
 
@@ -59,13 +60,14 @@ int main()
 			//사용자 추가
 			cout << "Input Name (New) : ";
 			getline(cin, name);
+			pUser = make_unique <User>();
 			//사용자가 이미 있으면 break.
-			if (!user.U_check(name))
+			if (!pUser->U_check(name))
 			{
 				cout << "This name already exists." << endl;
 				break;
 			}
-			user.setName(name);
+			pUser->setName(name);
 			fileName = name;
 
 			while (true)
@@ -73,27 +75,24 @@ int main()
 				cout << "Input Task (End Code : end) : ";
 				getline(cin, todo);
 				if (todo == "end") break;
-				user.U_insert(todo);
+				pUser->U_insert(todo);
 			}
-			// 사용자 파일 생성. 내용 출력 후 닫기.
-			user.U_save(fileName);
-			user.U_listClear();
 			cout << endl;
 			break;
 
 		case 2:
 			//사용자 선택
-			user.U_listClear();
+			pUser = make_unique <User>();
 			cout << "Input Name (Select) : ";
 			getline(cin, name);
-			user.U_load(name);
+			pUser->U_load(name);
 			cout << endl;
 			break;
 
 		case 3:
 			//할 일 조회
 			tbColor(14, 0);
-			user.U_allPrint();
+			pUser->U_allPrint();
 			tbColor(15, 0);
 			cout << endl;
 			break;
@@ -105,7 +104,7 @@ int main()
 				cout << "Input Task (End Code : end) : ";
 				getline(cin, todo);
 				if (todo == "end") break;
-				user.U_insert(todo);
+				pUser->U_insert(todo);
 			}
 			cout << endl;
 			break;
@@ -115,13 +114,13 @@ int main()
 			int editN;
 			cout << "Please select the number" << endl;
 			tbColor(14, 0);
-			user.U_allPrint();
+			pUser->U_allPrint();
 			tbColor(15, 0);
 			cout << "Input Number : ";
 			cin >> editN;
 			cout << "Input Task :";
 			cin >> todo;
-			user.U_modify(editN, todo);
+			pUser->U_modify(editN, todo);
 			cout << endl;
 			break;
 
@@ -129,11 +128,11 @@ int main()
 			//할 일 삭제
 			cout << "Please select the number you want to delete" << endl;
 			tbColor(14, 0);
-			user.U_allPrint();
+			pUser->U_allPrint();
 			tbColor(15, 0);
 			cout << "Input Number : ";
 			cin >> editN;
-			user.U_del(editN);
+			pUser->U_del(editN);
 			cout << endl;
 			break;
 
@@ -141,14 +140,14 @@ int main()
 			//완료
 			cout << "Choose clear task" << endl;
 			tbColor(14, 0);
-			user.U_allPrint();
+			pUser->U_allPrint();
 			tbColor(15, 0);
 			cout << "Input Number : ";
 			cin >> editN;
-			user.U_clear(editN);
+			pUser->U_clear(editN);
 
 		case 8:
-			user.U_save(name);
+			pUser->U_save(name);
 			cout << endl;
 			break;
 
