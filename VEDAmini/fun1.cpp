@@ -13,6 +13,6 @@ void ToDo::allPrint() const
 {
 	for (int i = 0; i < m_list.size(); i++)
 	{
-		cout << i << ". " << m_list[i] <<endl;
+		cout << i+1 << ". " << m_list[i] <<endl;
 	}
 }
