@@ -12,7 +12,7 @@ int main()
 	string name;
 	string todo;
 	User user;
-	string fileName = name + ".txt";
+	string fileName;
 	ifstream loadFile(fileName);
 
 	cout << "---------------" << endl;
@@ -37,10 +37,8 @@ int main()
 			//사용자 추가
 			cout << "Input Name (New) : ";
 			getline(cin, name);
-			//사용자가 이미 있으면
-			if (loadFile)
-				std::cout << "User information already exists.\n";
 			user.setName(name);
+			fileName = name;
 
 			while (true)
 			{
