@@ -16,5 +16,6 @@ public:
 	void allPrint() const;
 	void load(std::string name);
 	void save(std::string name) const;
+	bool check(std::string name) const;
 };
 #endif

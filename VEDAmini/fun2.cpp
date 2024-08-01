@@ -77,3 +77,12 @@ void ToDo::save(std::string name) const
 	saveFile.close();
 	std::cout << "저장이 완료 되었습니다.\n";
 }
+
+bool ToDo::check(std::string name) const
+{
+	std::string fileName = name + ".txt";
+	std::ifstream checkPtr(fileName);
+	if (!checkPtr)
+		return true; // 최초 작성
+	else return false; // 이미 있는 이름
+}
