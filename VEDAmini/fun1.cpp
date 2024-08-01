@@ -11,10 +11,14 @@ void ToDo::insert(std::string input)
 }
 void ToDo::allPrint() const
 {
+	cout << "To-Do List" << endl;
 	for (int i = 0; i < m_list.size(); i++)
 	{
-		cout << i+1 << ". " << m_list[i] <<endl;
+		cout << i + 1 << ". " << m_list[i] << endl;
 	}
+
+	cout << "Done List" << endl;
+
 	for (int i = 0; i < c_list.size(); i++)
 	{
 		cout << i + 1 << ". " << c_list[i] << endl;

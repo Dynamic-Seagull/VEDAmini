@@ -66,25 +66,24 @@ void ToDo::load(std::string name)
 
 	// ---------------------------------------------------------
 
-	if (c_list.size() > 0)
+	
+	fileName = ".\\done\\" + name + "_clear" + ".txt";
+
+	loadFile.open(fileName);
+	if (!loadFile)
+		std::cout << "이전에 작성 한 기록이 없습니다.\n";
+
+	temp;
+	c_list.clear();
+
+	while (std::getline(loadFile, temp))
 	{
-		fileName = ".\\done\\" + name + "_clear" + ".txt";
-
-		std::ifstream loadFile(fileName);
-		if (!loadFile)
-			std::cout << "이전에 작성 한 기록이 없습니다.\n";
-
-		temp;
-		c_list.clear();
-
-		while (std::getline(loadFile, temp))
-		{
-			c_list.push_back(temp);
-		}
-
-		loadFile.close();
-		std::cout << "완료한 일 리스트 불러오기가 완료 되었습니다.\n";
+		c_list.push_back(temp);
 	}
+
+	loadFile.close();
+	std::cout << "완료한 일 리스트 불러오기가 완료 되었습니다.\n";
+	
 }
 
 void ToDo::save(std::string name) const
@@ -100,7 +99,7 @@ void ToDo::save(std::string name) const
 	}
 
 	saveFile.close();
-	std::cout << "저장이 완료 되었습니다.\n";
+	std::cout << "To-Do List 저장이 완료 되었습니다.\n";
 
 	// ---------------------------------------------------------
 
@@ -117,7 +116,7 @@ void ToDo::save(std::string name) const
 		}
 
 		saveFile.close();
-		std::cout << "저장이 완료 되었습니다.\n";
+		std::cout << "Done List 저장이 완료 되었습니다.\n";
 	}
 }
 
