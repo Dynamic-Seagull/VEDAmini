@@ -114,8 +114,9 @@ int main()
 			//할 일 수정
 			int editN;
 			cout << "Please select the number" << endl;
-			cout << "To-Do List" << endl;
+			tbColor(14, 0);
 			user.U_allPrint();
+			tbColor(15, 0);
 			cout << "Input Number : ";
 			cin >> editN;
 			cout << "Input Task :";
