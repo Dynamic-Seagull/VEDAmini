@@ -1,6 +1,7 @@
 #include <iostream>
 #include "To_do.h"
 #include <fstream>
+#include <filesystem>
 
 ToDo::ToDo()
 {
@@ -44,7 +45,7 @@ void ToDo::del(int idx)
 
 void ToDo::load(std::string name)
 {
-	std::string fileName = name + ".txt";
+	std::string fileName = ".\\userInfo\\" + name + ".txt";
 
 	std::ifstream loadFile(fileName);
 	if (!loadFile)
@@ -64,7 +65,7 @@ void ToDo::load(std::string name)
 
 void ToDo::save(std::string name) const
 {
-	std::string fileName = name + ".txt";
+	std::string fileName = ".\\userInfo\\" + name + ".txt";
 	std::ofstream saveFile(fileName);
 	if (!saveFile)
 		std::cout << "파일을 열 수 없습니다.\n";
@@ -80,7 +81,7 @@ void ToDo::save(std::string name) const
 
 bool ToDo::check(std::string name) const
 {
-	std::string fileName = name + ".txt";
+	std::string fileName = ".\\userInfo\\" + name + ".txt";
 	std::ifstream checkPtr(fileName);
 	if (!checkPtr)
 		return true; // 최초 작성
