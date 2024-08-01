@@ -69,6 +69,7 @@ int main()
 
 		case 2:
 			//사용자 선택
+			user.U_clear();
 			cout << "Input Name (Select) : ";
 			getline(cin, name);
 			user.U_load(name);
