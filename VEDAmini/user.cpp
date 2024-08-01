@@ -36,3 +36,8 @@ void User::U_save(string name) const
 {
 	myList.save(name);
 }
+
+bool User::U_check(string name)
+{
+	return myList.check(name);
+}
