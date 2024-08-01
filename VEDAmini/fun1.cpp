@@ -7,15 +7,15 @@ using namespace std;
 
 //std::vector<std::string> m_list;
 
-void insert(std::string input)
+void To_do::insert(std::string input)
 {
 	m_list.push_back(input);
 }
-void allPrint() const
+void To_do::allPrint() const
 {
 	for (int i = 0; i < m_list.size(); i++)
 	{
 		cout << "To-Do List" << endl;
-		cout << i << ". " << v[i] <<endl;
+		cout << i << ". " << m_list[i] <<endl;
 	}
 }
