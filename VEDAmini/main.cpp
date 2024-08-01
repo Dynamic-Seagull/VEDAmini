@@ -63,7 +63,7 @@ int main()
 			}
 			// 사용자 파일 생성. 내용 출력 후 닫기.
 			user.U_save(fileName);
-			user.U_clear();
+			user.U_listClear();
 			cout << endl;
 			break;
 
