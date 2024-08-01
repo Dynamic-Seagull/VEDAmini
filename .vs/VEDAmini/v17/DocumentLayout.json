@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VEDAmini\\fun1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VEDAmini\\fun2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\To_do.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VEDAmini\\To_do.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VEDAmini\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "To_do.h",
+              "DocumentMoniker": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\To_do.h",
+              "RelativeDocumentMoniker": "VEDAmini\\To_do.h",
+              "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\To_do.h",
+              "RelativeToolTip": "VEDAmini\\To_do.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-01T01:51:08.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fun2.cpp",
+              "DocumentMoniker": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun2.cpp",
+              "RelativeDocumentMoniker": "VEDAmini\\fun2.cpp",
+              "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun2.cpp",
+              "RelativeToolTip": "VEDAmini\\fun2.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-01T01:46:16.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\main.cpp",
+              "RelativeDocumentMoniker": "VEDAmini\\main.cpp",
+              "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\main.cpp",
+              "RelativeToolTip": "VEDAmini\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-01T01:46:14.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +79,7 @@
               "RelativeDocumentMoniker": "VEDAmini\\fun1.cpp",
               "ToolTip": "C:\\Users\\DREAM15\\Desktop\\veda\\VEDAmini\\VEDAmini\\fun1.cpp",
               "RelativeToolTip": "VEDAmini\\fun1.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-01T01:43:54.604Z",
               "EditorCaption": ""

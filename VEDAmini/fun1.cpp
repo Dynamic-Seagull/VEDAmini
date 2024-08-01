@@ -7,11 +7,11 @@ using namespace std;
 
 //std::vector<std::string> m_list;
 
-void To_do::insert(std::string input)
+void ToDo::insert(std::string input)
 {
 	m_list.push_back(input);
 }
-void To_do::allPrint() const
+void ToDo::allPrint() const
 {
 	for (int i = 0; i < m_list.size(); i++)
 	{
