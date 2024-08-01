@@ -14,20 +14,20 @@ int main()
 	User user;
 	string fileName;
 	ifstream loadFile(fileName);
-
-	cout << "---------------" << endl;
-	cout << "1. User : Add " <<endl;
-	cout << "2. User : select " << endl;
-	cout << "3. To-Do : Show List " << endl;
-	cout << "4. To-Do : Add Task " << endl;
-	cout << "5. To-Do : Edit " << endl;
-	cout << "6. To-Do : Delete " << endl;
-	cout << "7. Save " << endl;
-	cout << endl;
-	cout << "9. Quit " << endl;
-	cout << "---------------" << endl;
 	do
 	{
+		cout << "---------------" << endl;
+		cout << "1. User : Add " <<endl;
+		cout << "2. User : select " << endl;
+		cout << "3. To-Do : Show List " << endl;
+		cout << "4. To-Do : Add Task " << endl;
+		cout << "5. To-Do : Edit " << endl;
+		cout << "6. To-Do : Delete " << endl;
+		cout << "7. Save " << endl;
+		cout << endl;
+		cout << "9. Quit " << endl;
+		cout << "---------------" << endl;
+	
 		cout << "Select : ";
 		cin >> menuNum;
 		getchar();
@@ -37,6 +37,12 @@ int main()
 			//사용자 추가
 			cout << "Input Name (New) : ";
 			getline(cin, name);
+			//사용자가 이미 있으면 break.
+			if (!user.U_check(name))
+			{
+				cout << "This name already exists." << endl;
+				break;
+			}
 			user.setName(name);
 			fileName = name;
 
@@ -49,6 +55,7 @@ int main()
 			}
 			// 사용자 파일 생성. 내용 출력 후 닫기.
 			user.U_save(fileName);
+			cout << endl;
 			break;
 
 		case 2:
@@ -56,12 +63,14 @@ int main()
 			cout << "Input Name (Select) : ";
 			getline(cin, name);
 			user.U_load(name);
+			cout << endl;
 			break;
 
 		case 3:
 			//할 일 조회
 			cout << "To-Do List" << endl;
 			user.U_allPrint();
+			cout << endl;
 			break;
 
 		case 4:
@@ -73,6 +82,7 @@ int main()
 				if (todo == "end") break;
 				user.U_insert(todo);
 			}
+			cout << endl;
 			break;
 
 		case 5:
@@ -86,6 +96,7 @@ int main()
 			cout << "Input Task :";
 			cin >> todo;
 			user.U_modify(editN, todo);
+			cout << endl;
 			break;
 
 		case 6:
@@ -97,18 +108,22 @@ int main()
 			user.U_del(editN);
 			cout << "To-Do List" << endl;
 			user.U_allPrint();
+			cout << endl;
 			break;
 
 		case 7:
 			user.U_save(name);
+			cout << endl;
 			break;
 
 		case 9:
 			cout << "Quit."<<endl;
+			cout << endl;
 			break;
 
 		defult:
 			cout << "Please select again." << endl;
+			cout << endl;
 			break;
 		}
 	} while (menuNum != 9);
